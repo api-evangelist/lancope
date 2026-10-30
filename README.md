@@ -64,21 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Lancope was an Atlanta, Georgia based network security company best known for **StealthWatch**, a NetFlow-based network visibility and security analytics platform that used flow telemetry from existing routers and switches to detect internal threats, lateral movement, and anomalous behavior without deploying inline sensors.
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-## Status: acquired
+Lancope was an Atlanta, Georgia based network security company best known for StealthWatch, a NetFlow-based network visibility and security analytics platform that used flow telemetry from existing routers and switches to detect internal threats, lateral movement, and anomalous behavior without deploying inline sensors. Lancope was acquired by Cisco Systems on December 22, 2015 for approximately $452.5 million to advance Cisco's "Security Everywhere" strategy. StealthWatch was folded into Cisco's security portfolio, rebranded Cisco Stealthwatch Enterprise and later, from version 7.4.0, Cisco Secure Network Analytics. Lancope no longer operates as an independent company and publishes no developer portal, API, or SDK of its own - lancope.com now redirects to the Cisco Secure Network Analytics product page. The programmable surface descended from StealthWatch (the Secure Network Analytics REST APIs, plus the deprecated SOAP Web Services API) is documented by Cisco on developer.cisco.com and is catalogued in the API Evangelist network under the Cisco provider repositories rather than here.
 
-Cisco Systems acquired Lancope on **December 22, 2015** for approximately **$452.5 million**, to advance its "Security Everywhere" strategy. StealthWatch was folded into Cisco's security portfolio, rebranded **Cisco Stealthwatch Enterprise** and later — from version 7.4.0 — **Cisco Secure Network Analytics**.
+**Areas:** Company · Acquired · Network Security · Security Analytics · Network Visibility · NetFlow · Threat Detection · Cisco
 
-Lancope no longer operates as an independent company. `lancope.com` redirects to the Cisco Secure Network Analytics product page, and there is no Lancope developer portal, API, SDK, or package surface to catalog.
+## Lancope on APIs.io (historical record)
 
-## Where the API surface lives now
+Everything profiled for Lancope is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lancope/](https://apis.io/providers/lancope/)** — or go straight to one of the APIs or properties below.
 
-The programmable surface descended from StealthWatch — the Secure Network Analytics REST APIs, plus the deprecated SOAP Web Services API — is documented by Cisco:
+## API Evangelist rating
 
-- Product: https://www.cisco.com/site/us/en/products/security/security-analytics/secure-network-analytics/index.html
-- Developer docs: https://developer.cisco.com/docs/stealthwatch/enterprise/
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
 
-Those APIs are catalogued in the API Evangelist network under the **Cisco** provider repositories, not here. This repo is retained as an identity/lineage record.
+## How this profile is made
 
-Backed by: canaan-partners
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Lancope: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lancope/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
